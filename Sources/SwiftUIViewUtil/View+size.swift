@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-// MARK: - get size
-
 private struct SizePK: PreferenceKey {
     typealias T = CGSize
     static var defaultValue: T = T()
